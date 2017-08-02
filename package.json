@@ -8,10 +8,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "docker-build": "docker build -t ng2-quickstart .",
-    "pree2e": "npm run webdriver:update",
-    "webdriver:update": "webdriver-manager update"
+    "e2e": "ng e2e"
   },
   "keywords": [],
   "author": "",
