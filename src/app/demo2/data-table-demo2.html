@@ -18,9 +18,9 @@
       property="year"
       header="Year"
       sortable="true">
-      <template #dataTableCell let-item="item">
+      <ng-template #dataTableCell let-item="item">
         <input type="number" [(ngModel)]="item.year" class="form-control input-sm" style="width: 75px"/>
-      </template>
+      </ng-template>
     </data-table-column>
     <data-table-column
       property="maker"
@@ -36,12 +36,12 @@
     </data-table-column>
     <data-table-column
       header="Actions">
-      <template #dataTableHeader let-item="item">
+      <ng-template #dataTableHeader let-item="item">
         <i>Actions</i>
-      </template>
-      <template #dataTableCell let-item="item">
+      </ng-template>
+      <ng-template #dataTableCell let-item="item">
         <button (click)="carClicked(item)" class="btn btn-sm btn-default">Buy</button>
-      </template>
+      </ng-template>
     </data-table-column>
   </data-table>
   <div>

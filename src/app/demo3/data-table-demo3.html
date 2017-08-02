@@ -17,9 +17,9 @@
         [indexColumnHeader]="'#'"
         [selectOnRowClick]="true"
         >
-        <template #dataTableExpand let-item="item">
+        <ng-template #dataTableExpand let-item="item">
             <div [textContent]="item.description" style="padding: 5px; color: gray"></div>
-        </template>
+        </ng-template>
         <data-table-column
             [property]="'title'"
             [header]="'Title'"

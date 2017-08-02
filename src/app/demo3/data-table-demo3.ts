@@ -1,12 +1,12 @@
 import { Component, ViewChild } from '@angular/core';
-import { DataTable, DataTableTranslations, DataTableResource } from 'angular-2-data-table';
+import { DataTable, DataTableTranslations, DataTableResource } from 'angular-4-data-table';
 import { films } from './data-table-demo3-data';
 
 
 @Component({
   selector: 'data-table-demo-3',
-  templateUrl: 'app/demo3/data-table-demo3.html',
-  styleUrls: ['app/demo3/data-table-demo3.css']
+  templateUrl: './data-table-demo3.html',
+  styleUrls: ['./data-table-demo3.css']
 })
 export class DataTableDemo3 {
 

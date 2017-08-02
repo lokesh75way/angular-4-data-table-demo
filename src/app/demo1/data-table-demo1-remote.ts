@@ -5,8 +5,8 @@ import { RemoteService } from './data-table-demo1-remote-service';
 @Component({
     selector: 'data-table-demo-1-remote',
     providers: [RemoteService],
-    templateUrl: 'app/demo1/data-table-demo1.html',
-    styleUrls: ['app/demo1/data-table-demo1.css']
+    templateUrl: './data-table-demo1.html',
+    styleUrls: ['./data-table-demo1.css']
 })
 export class DataTableDemo1Remote {
 
