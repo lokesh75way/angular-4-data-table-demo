@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { DataTableModule } from 'angular-4-data-table';
+import { DataTableModule } from 'angular-4-data-table/src/index';
 
 import { DataTableDemo1 } from './demo1/data-table-demo1';
 import { DataTableDemo2 } from './demo2/data-table-demo2';
