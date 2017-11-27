@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { DataTable, DataTableResource } from 'angular-4-data-table';
+import { DataTable, DataTableResource } from 'angular-4-data-table/src/index';
 import { cars } from './data-table-demo2-data';
 
 
@@ -9,6 +9,7 @@ import { cars } from './data-table-demo2-data';
 })
 export class DataTableDemo2 {
 
+    yearLimit = 1999;
     carResource = new DataTableResource(cars);
     cars = [];
     carCount = 0;
@@ -31,9 +32,8 @@ export class DataTableDemo2 {
         alert(car.model);
     }
 
-    yearLimit = 1999;
 
     rowColors(car) {
-        if (car.year >= this.yearLimit) return 'rgb(255, 255, 197)';
+        if (car.year >= this.yearLimit) {return 'rgb(255, 255, 197)'; };
     }
 }

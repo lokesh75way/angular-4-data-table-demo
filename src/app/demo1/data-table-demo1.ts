@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DataTableResource } from 'angular-4-data-table';
+import { DataTableResource } from 'angular-4-data-table/src/index';
 import persons from './data-table-demo1-data';
 
 

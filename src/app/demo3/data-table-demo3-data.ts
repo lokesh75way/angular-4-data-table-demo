@@ -1,4 +1,4 @@
-export var films = [
+export const films = [
     { title: 'The Shawshank Redemption', year: 1994, rating: 9.2, director: 'Frank Darabont', description: 'Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.'},
     { title: 'The Godfather', year: 1972, rating: 9.2, director: 'Francis Ford Coppola', description: 'The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.'},
     { title: 'The Godfather: Part II', year: 1974, rating: 9.0, director: 'Francis Ford Coppola', description: 'The early life and career of Vito Corleone in 1920s New York is portrayed while his son, Michael, expands and tightens his grip on his crime syndicate stretching from Lake Tahoe, Nevada to pre-revolution 1958 Cuba.'},

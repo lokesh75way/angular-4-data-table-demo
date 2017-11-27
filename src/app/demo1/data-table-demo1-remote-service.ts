@@ -1,13 +1,13 @@
-import { Injectable }     from '@angular/core';
+import { Injectable } from '@angular/core';
 import { Http, Response } from '@angular/http';
-import { DataTableParams } from 'angular-4-data-table';
+import { DataTableParams } from 'angular-4-data-table/src/index';
 import 'rxjs/add/operator/toPromise';
 
 
 const BASE_URL = 'http://localhost:3000';
 
 function paramsToQueryString(params: DataTableParams) {
-    let result = [];
+    const result = [];
 
     if (params.offset != null) {
         result.push(['_start', params.offset]);
