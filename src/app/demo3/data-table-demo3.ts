@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { DataTable, DataTableTranslations, DataTableResource } from 'angular-4-data-table/src/index';
+import { DataTable, DataTableTranslations, DataTableResource } from 'angular-4-data-table';
 import { films } from './data-table-demo3-data';
 
 
