@@ -20,6 +20,7 @@ export class DataTableDemo1 {
     }
 
     reloadItems(params) {
+      console.log('params==>', params);
         this.itemResource.query(params).then(items => this.items = items);
     }
 
